@@ -74,8 +74,8 @@ soc = """\033[1;91m[\033[;1;97m01\033[1;91m] \033[1;92mSelect any options
 \033[1;91m[\033[;1;97m01\033[1;91m] \033[1;92mInstagram
 \033[1;91m[\033[;1;97m02\033[1;91m] \033[1;92mFacebook
 \033[1;91m[\033[;1;97m03\033[1;91m] \033[1;92mGithub
-\033[1;91m[\033[;1;97m04\033[1;91m] \033[1;92mYouTube
-\033[1;91m[\033[;1;97m05\033[1;91m] \033[1;92mTelegram
+\033[1;91m[\033[;1;97m04\033[1;91m] \033[1;92mFacebook Page
+\033[1;91m[\033[;1;97m05\033[1;91m] \033[1;92mOur Help Line Group
 \033[1;91m[\033[;1;97m99\033[1;91m] \033[1;92mBack
 \033[1;91m[00] \033[1;91mQuit
 
@@ -313,7 +313,7 @@ while True:
 				print()
 				print("\033[1;91m[*] \033[1;97mOpening my Facebook page in your device \n")
 				time.sleep(1)
-				os.system("xdg-open https://www.facebook.com/TEAMDANGEROUS.DT")
+				os.system("xdg-open https://www.facebook.com/100039778355029")
 
 			elif fol == '3' or fol == '03':
 				print()
@@ -329,9 +329,9 @@ while True:
             
 			elif fol == '5' or fol == '05':
 				print()
-				print("\033[1;91m[*] \033[1;97mOpening my Helpline Facebook Page in your device \n")
+				print("\033[1;91m[*] \033[1;97mOpening Our Helpline Group in your device \n")
 				time.sleep(1)
-				os.system("xdg-open m.me/TEAMDANGEROUS.DT")
+				os.system("xdg-open m.me/j/AbYcRT6gaJEk43qV/")
 
 			elif fol == '9' or fol == '99':
 				print()
